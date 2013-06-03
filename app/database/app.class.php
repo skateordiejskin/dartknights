@@ -2,7 +2,7 @@
 
 include 'database.class.php';
 
-define("DB_HOST", "dk.joeskinner.me");
-define("DB_USER", "joeski2");
-define("DB_PASS", "sk8er4lyf");
-define("DB_NAME", "dart_knights");
+define("DB_HOST", $host);
+define("DB_USER", $user);
+define("DB_PASS", $password);
+define("DB_NAME", $dbName);
